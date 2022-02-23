@@ -39,7 +39,8 @@ const Form = (props) => {
                     onChange={onChange}
                 />
             </label>
-            <label>
+
+            <label>Password
                 <input
                 type ='password'
                 name='password'

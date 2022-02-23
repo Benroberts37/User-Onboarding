@@ -4,7 +4,7 @@ import { string } from 'yup';
 const formSchema = yup.object().shape({
     username:yup    
         .string()
-        .trime()
+        .trim()
         .required('Username is required')
         .min(3, 'Username must be 3 characters long'),
     email: yup  

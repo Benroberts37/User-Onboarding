@@ -5,7 +5,7 @@ import * as yup from 'yup';
 import Form from './Components/Form'
 import schema from './Validation/formSchema'
 
-const initialFormlValues = {
+const initialFormValues = {
   username: '',
   password: '',
   email: '',
@@ -20,7 +20,7 @@ const initialFormErrors = {
 };
 
 function App() {
-  const [formValues, setFormValues] = useState(initialFormlValues);
+  const [formValues, setFormValues] = useState(initialFormValues);
   const [formErrors, setFormErrors] = useState(initialFormErrors);
 
   const handleSubmit = () => {
